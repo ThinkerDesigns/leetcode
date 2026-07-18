@@ -1,2 +1,2 @@
 Non-gpted solutions for leetcodes I have done
-[![Dhruv's LeetCode stats](https://leetcode-stats-six.vercel.app/?username=d-bhadauriya-10)]
+![LeetCode Stats](https://leetcard.jacoblin.cool/d-bhadauriya-10?theme=dark&font=Doppio%20One)
