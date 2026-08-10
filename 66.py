@@ -1,8 +1,7 @@
 # Plus One
 class Solution:
     def plusOne(self, digits: List[int]) -> List[int]:
-        x = ''.join(map(str, digits))
-        x = int(x)
-        x = x + 1
-        digits = res = [int(i) for i in str(x)]
-        return digits
+        if len(digits) == 1:
+            return list(int(x) for x in str(digits[0] + 1))
+        tmp = (int("".join(map(str, digits)))) + 1 # gpt :(
+        return (list(int(x) for x in str(tmp)))
